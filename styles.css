@@ -137,6 +137,38 @@ body {
   max-width: 200px;
 }
 
+.section-2 {
+  display: flex;
+  background-color: #9dff7f;
+  padding: 10em 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.inside p {
+  margin: 0;
+}
+
+.inside .quote {
+  color: rgb(218, 114, 54);
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inside .author {
+  color: rgb(141, 52, 0);
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .links {
   display: flex;
   gap: 1em;
