@@ -33,11 +33,6 @@ body {
   width: 80px;
 }
 
-.logo .text {
-  font-family: sans-serif;
-  padding: 1em;
-}
-
 .hero {
   padding-top: 1em;
   padding-bottom:  6em;
@@ -214,6 +209,19 @@ body {
   color: rgb(245, 105, 128);
 }
 
+.footer {
+  background-color: #df91c8;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.footer .copyright {
+  padding: 1em 0;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
 .links {
   display: flex;
   gap: 1em;
@@ -238,4 +246,21 @@ a {
 
 a:hover {
   color: #9dff7f;
+}
+
+/* a scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 114, 54);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(141, 52, 0);
 }
