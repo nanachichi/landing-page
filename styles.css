@@ -93,13 +93,13 @@ body {
   padding-bottom: 12em;
 }
 
-.title {
+.section-1 .title {
   color: rgb(245, 105, 128);
   font-size: 36px;
   font-weight: 800;
 }
 
-.watermelons {
+.section-1 .watermelons {
   display: flex;
   justify-content: center;
   gap: 4em;
@@ -145,28 +145,73 @@ body {
   align-items: center;
 }
 
-.inside {
+.section-2 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
+  width: 800px;
 }
 
-.inside p {
+.section-2 .container p {
   margin: 0;
 }
 
-.inside .quote {
+.section-2 .container .quote {
   color: rgb(218, 114, 54);
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 
-.inside .author {
+.section-2 .container .author {
   color: rgb(141, 52, 0);
   align-self: flex-end;
   font-size: 24px;
   font-weight: 700;
+}
+
+.section-3 {
+  padding: 6em 20em;
+}
+
+.section-3 .container {
+  background-color: rgb(245, 105, 128);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3em 10em;
+  border-radius: 10px;
+}
+
+.section-3 .container .title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.section-3 .container .info {
+  color: #e7e7e7;
+  font-size: 20px;
+}
+
+.section-3 .container p {
+  margin: 0;
+}
+
+.section-3 .container button {
+  background-color: rgb(245, 105, 128);
+  color: #ffffff;
+  border: solid 3px #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.section-3 .container button:hover {
+  background-color: #ffffff;
+  color: rgb(245, 105, 128);
 }
 
 .links {
